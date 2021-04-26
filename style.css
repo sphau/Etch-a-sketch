@@ -1,0 +1,41 @@
+html {
+    background-color: goldenrod;
+}
+
+
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100%;
+    padding-top: 50px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 640px;
+    width: 640px;
+    background-color: green;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    min-height: 2px;
+    width: 100%;
+    flex-grow: 1;
+}
+.block {
+    min-width: 2px;
+    flex-grow: 1;
+    background-color: white;
+}
+
